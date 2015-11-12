@@ -1,0 +1,33 @@
+{
+    "name": "OrthodOxford",
+    "description": "Project that formats commas the right, also the wrong way.",
+    "version": "1.0.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Douglas Linsmeyer",
+            "email": "douglinsmeyer@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "doctrine/collections": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DLinsmeyer\\OrthodOxford\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DLinsmeyer\\OrthodOxford\\Test\\": "tests"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
